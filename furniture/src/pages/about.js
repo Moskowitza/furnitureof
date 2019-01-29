@@ -20,12 +20,12 @@ const about = () => (
     <p>
       A contact at the JI brought this report to my attention. After a quick
       review I dismissed it entirely as a waste of everyone's time. Upon finding
-      time on my hands, I decided to give back. If you have time, I encourage
-      you to visit their website and then proceed here.
+      time on my hands, I decided to give back. If you have time, I encourage you to visit their website and then proceed here.
     </p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+
     <Link to="/">home</Link>
   </Layout>
 )
