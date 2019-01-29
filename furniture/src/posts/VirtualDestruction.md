@@ -1,7 +1,7 @@
 ---
-slug:"/virtual-destruction"
-title:"Virtual Destruction"
-date:"2019-01-29"
+slug: '/virtual-destruction'
+title: 'Virtual Destruction'
+date: '2019-01-29'
 ---
 
 Remember that scene in Idiocray where Luke Wilson goes to Carl's Jr for health care. Yeah, that.

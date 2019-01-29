@@ -1,7 +1,7 @@
 ---
-slug:"/previvors"
-title:"Previvors"
-date:"2019-01-29"
+slug: '/previvors'
+title: 'Previvors'
+date: '2019-01-29'
 ---
 
 ## genes and future illness

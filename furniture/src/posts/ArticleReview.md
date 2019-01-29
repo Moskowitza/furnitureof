@@ -1,7 +1,7 @@
 ---
-slug:"/article-review"
-title:"Article Review"
-date:"2019-01-29"
+slug: '/article-review'
+title: 'Article Review'
+date: '2019-01-29'
 ---
 
 Innovation Assures Future of Medicine in Buffalo is Bright

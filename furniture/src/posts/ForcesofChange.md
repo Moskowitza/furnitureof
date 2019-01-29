@@ -1,16 +1,21 @@
 ---
-slug:"/forces-of-change"
-title:"Forces of Change"
-date:"2019-01-29"
+slug: '/forces-of-change'
+title: 'Forces of Change'
+date: '2019-01-29'
 ---
+
 ## Presentation Overview
+
 That graphic is pretty dope.
+
 ## methodology
+
 Ok, some methodology:
-Authors picked 26 technologies and asked _some number_ of futurists to rank them form 1-10. 
-* Eleven of these forces are new medical technologies
-* Seven of the forces are computing technologies
-* Eight are global sociodemographic forces
+Authors picked 26 technologies and asked _some number_ of futurists to rank them form 1-10.
+
+- Eleven of these forces are new medical technologies
+- Seven of the forces are computing technologies
+- Eight are global sociodemographic forces
 
 And there is a list of 26 'technologies'
 

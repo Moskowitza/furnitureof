@@ -1,7 +1,7 @@
 ---
-slug:"/website-review"
-title:"Website Review"
-date:"2019-01-29"
+slug: '/website-review'
+title: 'Website Review'
+date: '2019-01-29'
 ---
 
 http://futureof.org/sports-2016/
