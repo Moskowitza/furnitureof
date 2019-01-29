@@ -1,8 +1,9 @@
 ---
 slug:"/article-review"
-title:"article review"
+title:"Article Review"
 date:"2019-01-29"
 ---
+
 Innovation Assures Future of Medicine in Buffalo is Bright
 [article](http://medicine.buffalo.edu/news_and_events/news/2018/10/future-medicine-panel-9222.html)
 

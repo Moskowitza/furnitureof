@@ -1,5 +1,5 @@
 ---
-slug:"/Virtual-Destruction"
+slug:"/virtual-destruction"
 title:"Virtual Destruction"
 date:"2019-01-29"
 ---

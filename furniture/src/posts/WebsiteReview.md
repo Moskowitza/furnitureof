@@ -1,3 +1,9 @@
+---
+slug:"/website-review"
+title:"Website Review"
+date:"2019-01-29"
+---
+
 http://futureof.org/sports-2016/
 
 Notes, the site looks great. and I like the use of setting up separate topics. But there are 14 chapters sections that don't help. One is simply called "Previvors" and another "The Art of Making A Baby". Is this a new Cards against Humanity Deck? Perhaps this is not the best place to start so I'll read those later.
