@@ -2,9 +2,9 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import gatsbyLogo from '../../public/icons/icon-48x48.png'
-import Toggle from './ToggleRPC'
+import { Icon, Toggle } from '../utilities'
 import Topics from './topics'
-import Icon from "../utilities/icon.js"
+
 const Header = ({ siteTitle, image }) => (
   <div
     style={{
@@ -46,7 +46,7 @@ const Header = ({ siteTitle, image }) => (
               }}
               onClick={toggle}
             >
-            <Icon color="red" name="menu"/>
+              <Icon color="red" name="menu" />
             </div>
             <div
               style={{
@@ -66,7 +66,6 @@ const Header = ({ siteTitle, image }) => (
       </Toggle>
     </div>
   </div>
-  
 )
 
 Header.propTypes = {

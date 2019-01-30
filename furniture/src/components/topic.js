@@ -6,6 +6,8 @@ const Topic = ({ title }) => (
     style={{
       background: `pink`,
       border: 'solid black 1px',
+      borderRadius: '2',
+      margin: 1,
       minHeight: '125',
       minWidth: '125',
     }}
