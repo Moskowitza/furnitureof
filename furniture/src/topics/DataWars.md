@@ -1,7 +1,7 @@
 ---
 position: 4
-slug: '/forces-of-change'
-title: 'Forces of Change'
+slug: '/data-wars'
+title: 'Data Wars'
 date: '2019-01-29'
 ---
 

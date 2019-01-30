@@ -31,7 +31,10 @@ const Topics = ({ children }) => (
           }}
         >
           {allMarkdownRemark.edges.map(edge => (
-            <Topic title={edge.node.frontmatter.title} />
+            <Topic
+              slug={edge.node.frontmatter.slug}
+              title={edge.node.frontmatter.title}
+            />
           ))}
         </div>
       </>

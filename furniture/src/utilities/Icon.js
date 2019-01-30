@@ -21,7 +21,7 @@ export default class Icon extends Component {
               height="18"
               x="3"
               y="3"
-              class="primary"
+              className="primary"
               rx="2"
               fill="none"
               stroke={this.props.color}
@@ -45,8 +45,8 @@ export default class Icon extends Component {
           >
             >
             <path
-              class="secondary"
-              fill-rule="evenodd"
+              className="secondary"
+              fillRule="evenodd"
               fill={this.props.color}
               d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
             />
@@ -65,7 +65,7 @@ export default class Icon extends Component {
           >
             >
             <path
-              class="secondary"
+              className="secondary"
               fill-rule="evenodd"
               fill={this.props.color}
               d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"

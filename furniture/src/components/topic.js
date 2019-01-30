@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-
-const Topic = ({ title }) => (
+import { Link } from 'gatsby'
+const Topic = ({ title, slug }) => (
   <div
     style={{
       background: `pink`,
@@ -12,7 +12,7 @@ const Topic = ({ title }) => (
       minWidth: '125',
     }}
   >
-    {title}
+    <Link to={slug}> {title}</Link>
   </div>
 )
 
