@@ -1,4 +1,5 @@
 ---
+position: 2
 slug: '/virtual-destruction'
 title: 'Virtual Destruction'
 date: '2019-01-29'

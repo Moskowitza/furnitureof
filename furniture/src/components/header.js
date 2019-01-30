@@ -7,8 +7,10 @@ import Topics from './topics'
 const Header = ({ siteTitle, image }) => (
   <div
     style={{
-      background: `rebeccapurple`,
+      boxSizing: 'border-box',
+      background: `grey`,
       marginBottom: `1.45rem`,
+      position: 'relative',
     }}
   >
     <div
@@ -32,10 +34,34 @@ const Header = ({ siteTitle, image }) => (
       </h1>
       <Toggle>
         {({ on, toggle }) => (
-          <div>
-            <button onClick={toggle}>X</button>
-            {on && <Topics />}
-          </div>
+          <>
+            <button
+              style={{
+                position: 'absolute',
+                top: 100,
+                right: 100,
+                margin: 0,
+
+                zIndex: 1000,
+              }}
+              onClick={toggle}
+            >
+              X
+            </button>
+            <div
+              style={{
+                position: 'absolute',
+                top: 110,
+                right: 110,
+                margin: `0 auto`,
+                maxWidth: 960,
+                padding: `1.45rem 1.0875rem`,
+                zIndex: 1000,
+              }}
+            >
+              {on && <Topics />}
+            </div>
+          </>
         )}
       </Toggle>
     </div>

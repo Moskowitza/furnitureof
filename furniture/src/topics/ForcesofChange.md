@@ -1,4 +1,5 @@
 ---
+position: 1
 slug: '/forces-of-change'
 title: 'Forces of Change'
 date: '2019-01-29'
