@@ -5,16 +5,17 @@ import Topic from './topic'
 const Topics = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query markDowns {
-        allMarkdownRemark {
-          totalCount
+      query topics {
+        allMarkdownRemark(
+          sort: { order: ASC, fields: [frontmatter___position] }
+          filter: { fileAbsolutePath: { regex: "/topics/" } }
+        ) {
           edges {
             node {
-              excerpt
               frontmatter {
                 title
+                position
                 slug
-                date
               }
             }
           }
@@ -30,7 +31,7 @@ const Topics = ({ children }) => (
           }}
         >
           {allMarkdownRemark.edges.map(edge => (
-            <Topic title={edge.node.frontmatter.slug} />
+            <Topic title={edge.node.frontmatter.title} />
           ))}
         </div>
       </>

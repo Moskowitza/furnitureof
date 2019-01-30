@@ -4,6 +4,7 @@ import React from 'react'
 import gatsbyLogo from '../../public/icons/icon-48x48.png'
 import Toggle from './ToggleRPC'
 import Topics from './topics'
+import Icon from "../utilities/icon.js"
 const Header = ({ siteTitle, image }) => (
   <div
     style={{
@@ -35,19 +36,18 @@ const Header = ({ siteTitle, image }) => (
       <Toggle>
         {({ on, toggle }) => (
           <>
-            <button
+            <div
               style={{
                 position: 'absolute',
                 top: 100,
                 right: 100,
                 margin: 0,
-
                 zIndex: 1000,
               }}
               onClick={toggle}
             >
-              X
-            </button>
+            <Icon color="red" name="menu"/>
+            </div>
             <div
               style={{
                 position: 'absolute',
@@ -66,6 +66,7 @@ const Header = ({ siteTitle, image }) => (
       </Toggle>
     </div>
   </div>
+  
 )
 
 Header.propTypes = {

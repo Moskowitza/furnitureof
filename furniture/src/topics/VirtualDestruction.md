@@ -5,7 +5,7 @@ title: 'Virtual Destruction'
 date: '2019-01-29'
 ---
 
-Remember that scene in Idiocray where Luke Wilson goes to Carl's Jr for health care. Yeah, that.
+Remember that scene in Idiocracy where Luke Wilson goes to the hospital. Yeah.
 
 So to the thesis of the work! Creative Destruction of Healthcare. Oh, also not the very popular Eric Topol book.
 This section has lists of things related to access of care, such as getting more doctors to practice in your area, telehealth, and drug delivery.
