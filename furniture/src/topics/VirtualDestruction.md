@@ -21,17 +21,17 @@ People buy stupid shit that they think will help.
 
 I think the connection is week and people will keep buying shit that is marketed to them.
 
-## 2 big trends
+## 2 Big Trends
 
 Hospital Buyouts
 Employer Self-funding
 
-Absolutely, these are big trends and the reason for the paper. Shit, are we already moving on?
+Absolutely, these are big trends and the reason for the paper. Thank you for the bullet points.
 
 ## The Benefit of Being Bigger
 
-Yeah, hence Hospital Buyouts and why all industries have seen consolidation.
+Yeah, all industries have seen consolidation in this late capitalism American. I think this is what the JI wished to have addressed in this report, "how to get bigger". There are many directions to grow and efficiencies to be made. Unfortunately, we don't get an answer here or elsewhere in the report.
 
 ## The Benefit of Being Agile.
 
-Wait, so be Big or Agile? These examples are mostly very specific in what they do.
+I think the suggestion here is Kaleida can install bigger windows, lower their hospital infection rates, and then sell them to Apple. I'm just kidding, there are no coherent suggestions or a illuminating ideas in this section.
