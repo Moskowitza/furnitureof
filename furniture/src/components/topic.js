@@ -12,7 +12,7 @@ const Topic = ({ title, slug }) => (
       minWidth: '125',
     }}
   >
-    <Link to={slug}> {title}</Link>
+    <Link to={`/topic${slug}`}> {title}</Link>
   </div>
 )
 
