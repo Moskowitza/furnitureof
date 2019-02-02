@@ -1,71 +1,72 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-import gatsbyLogo from '../../public/icons/icon-48x48.png'
+import hexLogo from '../../public/icons/hex.png'
 import { Icon, Toggle } from '../utilities'
 import Topics from './topics'
+import styled from 'styled-components'
+
+const HeaderWrapper = styled.div`
+  box-sizing: border-box;
+  background: grey;
+  margin-bottom: 1.45rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`
+const HeaderLogo = styled.img`
+  width: 100px;
+  height: auto;
+  margin-bottom: 0px;
+  margin: 50px;
+`
+const HeaderTitle = styled.div`
+  margin: 0 auto;
+  max-width: 960;
+  padding: 1.45rem 1.0875rem;
+`
+const HeaderTitleMargin = styled.h1`
+  margin: 0;
+`
+const HeaderLink = styled(Link)`
+  color: lightgrey;
+  text-decoration: none;
+`
+const PositionedMenuIcon = styled.div`
+  position: relative;
+  margin: 0;
+  z-index: 1000;
+`
+const PositionedMenuOpen = styled.div`
+  position: absolute;
+  top: 100;
+  left: 100;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+  z-index: 1000;
+`
 
 const Header = ({ siteTitle, image }) => (
-  <div
-    style={{
-      boxSizing: 'border-box',
-      background: `grey`,
-      marginBottom: `1.45rem`,
-      position: 'relative',
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-          <img src={gatsbyLogo} alt="gatsby logo" />
-        </Link>
-      </h1>
+  <HeaderWrapper>
+    <HeaderLogo src={hexLogo} alt="Hexagon" />
+    <HeaderTitle>
+      <HeaderTitleMargin>
+        <HeaderLink to="/">{siteTitle}</HeaderLink>
+      </HeaderTitleMargin>
+    </HeaderTitle>
+    <PositionedMenuIcon>
       <Toggle>
         {({ on, toggle }) => (
-          <>
-            <div
-              style={{
-                position: 'absolute',
-                top: 100,
-                right: 100,
-                margin: 0,
-                zIndex: 1000,
-              }}
-              onClick={toggle}
-            >
-              <Icon color="red" name="menu" />
-            </div>
-            <div
-              style={{
-                position: 'absolute',
-                top: 110,
-                right: 110,
-                margin: `0 auto`,
-                maxWidth: 960,
-                padding: `1.45rem 1.0875rem`,
-                zIndex: 1000,
-              }}
-            >
-              {on && <Topics />}
-            </div>
-          </>
+          <PositionedMenuIcon onClick={toggle}>
+            <Icon color="red" name="menu" />
+            <PositionedMenuOpen>{on && <Topics />}</PositionedMenuOpen>
+          </PositionedMenuIcon>
         )}
       </Toggle>
-    </div>
-  </div>
+    </PositionedMenuIcon>
+  </HeaderWrapper>
 )
 
 Header.propTypes = {

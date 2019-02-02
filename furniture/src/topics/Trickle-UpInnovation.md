@@ -17,4 +17,4 @@ Look at the testing example. There are essentially two testing companies in the 
 
 ## Medical Innovation Will Flow in Both Directions
 
-This section is, again, a collection of unorganized factoids and ides. I suppose the broad suggestion is to be open to adopting outside practices when they fit. Perhaps there should be business analysts looking for these opportunities at every organization looking for effiiencies.
+This section is, again, a collection of unorganized factoids and ides. I suppose the broad suggestion is to be open to adopting outside practices when they fit. Perhaps there should be business analysts looking for these opportunities at every organization looking for efficiencies.
