@@ -1,6 +1,6 @@
 ---
 position: 14
-slug: 'regeneratoin'
+slug: 'regeneration'
 title: 'Regeneration'
 date: '2019-01-29'
 ---

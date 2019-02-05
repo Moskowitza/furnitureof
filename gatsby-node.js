@@ -25,6 +25,7 @@ exports.createPages = ({ graphql, actions }) => {
           component: path.resolve('./src/components/topicLayout.js'),
           context: {
             slug: node.frontmatter.slug,
+            heroImage: `${node.frontmatter.slug}.jpg`,
           },
         })
       )
