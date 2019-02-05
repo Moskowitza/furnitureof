@@ -57,11 +57,11 @@ const Listing = () => (
       render={({ allMarkdownRemark }) =>
         allMarkdownRemark.edges.map(({ node }) => (
           <Topic key={node.frontmatter.slug}>
-            <Link to={`/topic${node.frontmatter.slug}`}>
+            <Link to={`/topic/${node.frontmatter.slug}`}>
               <h3>{node.frontmatter.title}</h3>
             </Link>
             <p>{node.excerpt}</p>
-            <Link class="read-more" to={`/topic${node.frontmatter.slug}`}>
+            <Link class="read-more" to={`/topic/${node.frontmatter.slug}`}>
               Read More
             </Link>
           </Topic>
